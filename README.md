@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🤝 codex-pair
-
-### Two AIs review each other so you don't have to.
+<img src="assets/banner.svg" alt="codex-pair — Two AIs review each other so you don't have to" width="100%" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-FF6B35)](https://claude.com/claude-code)
@@ -98,6 +96,7 @@ Costs roughly **2× tokens** of solo Claude · **slower** than solo (consensus l
 
 - [`skills/codex-pair/SKILL.md`](skills/codex-pair/SKILL.md) — the actual skill
 - [`PROTOCOLS.md`](PROTOCOLS.md) — worklog · pending-commits · venv specs
+- [`examples/walk-through.md`](examples/walk-through.md) — full end-to-end example: building a PDF→Markdown CLI
 - [`LICENSE`](LICENSE) — MIT
 
 Inspired by [Matt Pocock's skills repo](https://github.com/mattpocock/skills). Pipeline design is this project's own.

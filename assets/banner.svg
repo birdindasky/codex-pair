@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="codex-pair — Two AIs review each other so you don't have to">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <!-- Subtle dot grid for texture -->
+  <g fill="#334155" opacity="0.4">
+    <circle cx="60" cy="60" r="1.5"/>
+    <circle cx="120" cy="60" r="1.5"/>
+    <circle cx="180" cy="60" r="1.5"/>
+    <circle cx="60" cy="120" r="1.5"/>
+    <circle cx="120" cy="120" r="1.5"/>
+    <circle cx="180" cy="120" r="1.5"/>
+    <circle cx="1020" cy="240" r="1.5"/>
+    <circle cx="1080" cy="240" r="1.5"/>
+    <circle cx="1140" cy="240" r="1.5"/>
+    <circle cx="1020" cy="300" r="1.5"/>
+    <circle cx="1080" cy="300" r="1.5"/>
+    <circle cx="1140" cy="300" r="1.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="130" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="84" font-weight="700" fill="#ffffff" letter-spacing="-2">codex-pair</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="180" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="400" fill="#cbd5e1">Two AIs review each other so you don't have to.</text>
+
+  <!-- Two AI dots + curved arrows -->
+  <!-- Claude (blue) -->
+  <g transform="translate(440, 250)">
+    <circle cx="0" cy="0" r="28" fill="#3b82f6"/>
+    <text x="0" y="7" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="white">C</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">claude</text>
+  </g>
+
+  <!-- Curved double arrow -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none">
+    <path d="M 480 240 Q 600 215 720 240" marker-end="url(#arrow)"/>
+    <path d="M 720 260 Q 600 285 480 260" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- "reviews" label -->
+  <text x="600" y="222" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-style="italic" fill="#64748b">reviews</text>
+  <text x="600" y="295" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-style="italic" fill="#64748b">reviews</text>
+
+  <!-- Codex (orange) -->
+  <g transform="translate(760, 250)">
+    <circle cx="0" cy="0" r="28" fill="#f97316"/>
+    <text x="0" y="7" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="22" font-weight="700" fill="white">X</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#94a3b8">codex</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" fill="#475569">A Claude Code skill · MIT licensed · github.com/birdindasky/codex-pair</text>
+</svg>
