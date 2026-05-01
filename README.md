@@ -6,6 +6,8 @@
 [![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-FF6B35)](https://claude.com/claude-code)
 [![Status: experimental](https://img.shields.io/badge/status-experimental-yellow)](#)
 
+**English** | [中文](./README_zh.md)
+
 </div>
 
 > You asked Claude to fix the bug. Claude said done. You ship it.
