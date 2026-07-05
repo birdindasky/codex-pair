@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="codex-pair — 两个 AI 互相审核,你不用看代码" width="100%" />
+<img src="assets/social-preview.png" alt="codex-pair — 两个 AI 互相审核,你不用看代码" width="100%" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-FF6B35)](https://claude.com/claude-code)
