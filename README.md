@@ -17,29 +17,7 @@
 
 ## ✨ How it feels
 
-```
-┌─ Claude Code ─────────────────────────────────────────────────────┐
-│                                                                   │
-│  You      Make me a CLI that converts PDF to Markdown.            │
-│           Use codex-pair on this.                                 │
-│                                                                   │
-│  Claude   Two paths — A) PyMuPDF + custom writer                  │
-│                       B) Marker (heavier, better tables)          │
-│           Which?                                                  │
-│                                                                   │
-│  You      A.                                                      │
-│                                                                   │
-│           ⋯  20 minutes of two AIs working  ⋯                    │
-│                                                                   │
-│  Claude   Done.                                                   │
-│           ✓ Codex caught 2 bugs during review (looped once)      │
-│           ✓ Tests pass · I ran it on a real PDF · works          │
-│           ✓ Committed as a3f9b2e                                 │
-│                                                                   │
-└───────────────────────────────────────────────────────────────────┘
-```
-
-You touched the keyboard **twice** — once to start, once to pick A.
+<img src="assets/how-it-feels.png" alt="You touch the keyboard twice — Claude and Codex do the rest" width="100%" />
 
 ## 🧭 The pipeline
 

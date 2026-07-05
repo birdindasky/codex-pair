@@ -17,27 +17,7 @@
 
 ## ✨ 用起来什么感觉
 
-```
-┌─ Claude Code ─────────────────────────────────────────────────────┐
-│                                                                   │
-│  你       帮我做一个把 PDF 转 Markdown 的 CLI。                    │
-│           这个项目用 codex-pair。                                  │
-│                                                                   │
-│  Claude   两条路 — A) PyMuPDF + 自己写转换器                       │
-│                    B) Marker(更重,但表格识别更好)                │
-│           选哪个?                                                 │
-│                                                                   │
-│  你       A。                                                      │
-│                                                                   │
-│           ⋯  两个 AI 干了 20 分钟  ⋯                              │
-│                                                                   │
-│  Claude   做完了。                                                 │
-│           ✓ Codex 在 review 时抓到 2 个 bug(循环了一轮)          │
-│           ✓ 测试通过 · 我用真实 PDF 跑了一遍 · 没问题              │
-│           ✓ 已提交为 a3f9b2e                                       │
-│                                                                   │
-└───────────────────────────────────────────────────────────────────┘
-```
+<img src="assets/how-it-feels.png" alt="You touch the keyboard twice — Claude and Codex do the rest" width="100%" />
 
 你一共只动了键盘 **两次** —— 一次启动,一次选 A。
 
